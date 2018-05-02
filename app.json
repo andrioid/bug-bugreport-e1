@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "assetBundlePatterns": [
+      "assets/img/**",
+      "src/components/vehicle/img/**"
+    ],
+    "android": {
+      "package": "dk.parkpark.mapbug",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+        "com.google.android.c2dm.permission.RECEIVE"
+      ],
+      "config": {
+      }
+    }
+  }
+}
